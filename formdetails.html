@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Register On ShareWheels</title>
+    <link rel="stylesheet" href="registrationstyle.css" />
+   
+  </head>
+
+  <body>
+    <nav>
+      <div>
+        <img src="logo-share-wheels.png" alt="logo">
+      </div>
+    </nav>
+    <div class="formwala">
+      <div class="w3-container">
+  
+      
+    <form action="">
+      <fieldset>
+        <h1><b>Register On ShareWheels</b></h1>
+        <p><b><i><u>Fill out this with your details</u></i></b></p>
+    
+        <b><label for="name">Enter Your Name: <input  id="name" name="name" type="text" required /></label></b>
+        
+        <b><label for="mobile">Enter Contact No.: <input  id="mobile" name="mobile" type="number" pattern="[1-9]{1}[0-9]{9}" required /></label></b>
+        <b><label for="email">Enter Your Email: <input id="email" name="email" type="email" /></label></b>
+        <b><label for="username">Choose a Username: <input  id="username" name="username" type="text" required /></label></b>
+        <b><label for="password">Enter a password: <input  id="password" name="password" type="password" required /></label></b>
+        <b><label for="age">Input your age (years): <input id="age" type="number" name="age" min="18" max="120" /></label></b>
+        <b><label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="A friend">A Friend</option>
+            <option value="Social Media">Social Media</option>
+            <option value="College Students">College Students</option>
+            <option value="someone">Other</option>
+          </select>
+        </label></b>
+        <b> <label for="bio">More About Yourself(Optional)
+          <textarea id="bio" name="bio" rows="3" cols="30"></textarea>
+        </label></b>
+     
+      
+      <div class="submit">
+        <b><input type="submit" value="Signup" /></b>
+      </fieldset>
+      
+    </form>
+    </div>
+    </div>
+
+  </body>
+</html>
